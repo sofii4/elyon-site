@@ -68,11 +68,7 @@ export default function HeroSection() {
                 </h2>
               </div>
 
-              <div className="flex items-center gap-4 mt-6">
-                <div className="h-px w-24 bg-elyon-gold" />
-                <div className="h-1 w-1 rounded-full bg-elyon-gold" />
-                <div className="h-px w-8 bg-elyon-gold/40" />
-              </div>
+            
 
               <p className="font-arimo text-white/60 text-lg leading-relaxed mt-6 max-w-xl">
                 Transformamos visões em legados. Cada projeto é conduzido com a precisão técnica

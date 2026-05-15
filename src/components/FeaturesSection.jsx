@@ -45,8 +45,6 @@ export default function FeaturesSection() {
 
   return (
     <section className="py-28 bg-elyon-dark-2 relative overflow-hidden">
-      <div className="absolute inset-0 arch-grid opacity-30" />
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-32 bg-gradient-to-b from-elyon-gold/30 to-transparent" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
 
@@ -55,7 +53,7 @@ export default function FeaturesSection() {
           ref={(el) => (refs.current[0] = el)}
           className="reveal text-center mb-16"
         >
-          <div className="flex items-center justify-center gap-4 mb-4">
+          <div className="flex items-center justify-center gap-4 mb-10">
             <span className="w-8 h-px bg-elyon-gold/40" />
             <div className="w-1 h-1 rounded-full bg-elyon-gold" />
             <span className="w-8 h-px bg-elyon-gold/40" />
